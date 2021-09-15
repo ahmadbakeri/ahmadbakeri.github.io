@@ -55,12 +55,14 @@ input, textarea, button {
 }
 
 .group {
-  display: inline-block;
+  display: inline-table;
   vertical-align: top;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
   background-color: #e2edff;
   padding: 1em;
   margin: 0.25em;
-  width: 18%;
+  width: 20%;
   border-radius: 3px;
   box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
 }
@@ -71,7 +73,7 @@ input, textarea, button {
   text-align: center;
 }
 body {
-  min-height: 2000px;
+  min-height: 3000px;
 }
 .jumbotron {
   padding-top: 6rem;
