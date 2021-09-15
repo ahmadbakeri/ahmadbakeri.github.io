@@ -14,7 +14,7 @@ $('#bikin').on('click', function(e) {
 	$('.groups').empty();
 
 	for (i = 0; i < numgroups; i++) {
-		$('.groups').append('<div class="group"  id="group' + (i+1) + '"><h2>Group ' + (i+1) + '</h2></div>');
+		$('.groups').append('<div class="group"  id="group' + (i+1) + '"><h2>Kelompok ' + (i+1) + '</h2></div>');
 	}
 
 	$('.group').each(function() {
@@ -48,7 +48,7 @@ $('#generatePDF').click(function () {
         'width': 700,
         'elementHandlers': specialElementHandlers
     });
-    doc.save('sample_file.pdf');
+    doc.save('Buat Kelompok.pdf');
 });
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbwD5fIyc3KcoHX9qcpL53b4Lsp2uugzirHER5lqUld0vOrsaW1Dgbk4LXW5xIY_S3IDyw/exec';
